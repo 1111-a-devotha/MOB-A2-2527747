@@ -1,0 +1,32 @@
+# dependencies
+node_modules/
+
+# Expo
+.expo/
+dist/
+web-build/
+expo-env.d.ts
+
+# native builds (EAS builds in the cloud)
+android/
+ios/
+*.apk
+*.aab
+
+# caches and logs
+.metro-health-check*
+npm-debug.*
+yarn-debug.*
+yarn-error.*
+*.log
+.DS_Store
+
+# secrets - never commit
+.env
+.env*.local
+*.jks
+*.keystore
+*.p8
+*.p12
+*.key
+*.mobileprovision

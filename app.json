@@ -1,0 +1,43 @@
+{
+  "expo": {
+    "name": "DevothaPortfolio",
+    "slug": "devotha-portfolio",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "backgroundColor": "#F6F1E7",
+    "splash": {
+      "image": "./assets/splash-icon.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#1F5C3B"
+    },
+    "android": {
+      "package": "rw.ac.ines.ug2527747.devothaportfolio",
+      "versionCode": 1,
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#1F5C3B"
+      },
+      "permissions": [
+        "android.permission.CAMERA",
+        "android.permission.RECORD_AUDIO"
+      ]
+    },
+    "plugins": [
+      [
+        "expo-image-picker",
+        {
+          "photosPermission": "DevothaPortfolio uses your photos only to let you pick a profile picture. The picture stays on this phone.",
+          "cameraPermission": "DevothaPortfolio uses the camera only to take a profile picture. The picture stays on this phone."
+        }
+      ]
+    ],
+    "extra": {
+      "eas": {
+        "projectId": "0ad90724-79f9-43be-a9aa-7134bbbe822d"
+      }
+    },
+    "owner": "devotha"
+  }
+}
